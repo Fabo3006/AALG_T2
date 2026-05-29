@@ -1,6 +1,6 @@
 # Problema 1 - T2
 ## Análisis de Algoritmos y Estrategias de Programación
-### 226413.15103 - 29/05/2026
+### CARLOS FABIAN QUISPE LEON - 226413.15103 - 29/05/2026
 
 El programa desarrollado realiza las siguientes tareas:
 
