@@ -1,6 +1,5 @@
 import random
 
-# Crear matriz NxN
 def crear_matriz(n):
     matriz = []
     for i in range(n):
@@ -10,7 +9,6 @@ def crear_matriz(n):
         matriz.append(fila)
     return matriz
 
-# Mostrar matriz
 def mostrar_matriz(matriz):
     print("\nMATRIZ GENERADA:\n")
     for fila in matriz:
@@ -18,7 +16,6 @@ def mostrar_matriz(matriz):
             print(f"{elemento:4}", end=" ")
         print()
 
-# Divide y vencerás para contar múltiplos en una fila
 def contar_fila(fila, inicio, fin):
     if inicio == fin:
         if fila[inicio] % 5 == 0 or fila[inicio] % 7 == 0:
@@ -32,7 +29,6 @@ def contar_fila(fila, inicio, fin):
 
     return izquierda + derecha
 
-# Divide y vencerás para contar en la matriz
 def contar_matriz(matriz, inicio_fila, fin_fila):
     if inicio_fila == fin_fila:
         return contar_fila(
@@ -48,7 +44,6 @@ def contar_matriz(matriz, inicio_fila, fin_fila):
 
     return superior + inferior
 
-# Programa principal
 def main():
     n = int(input("Ingrese el tamaño N de la matriz cuadrada NxN: "))
 
